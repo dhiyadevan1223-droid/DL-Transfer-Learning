@@ -206,8 +206,7 @@ def train_model(model, train_loader, test_loader, num_epochs=10):
               f'Validation Loss: {val_loss:.4f}')
 
     # Plot training and validation loss
-    print("Name: ARAVINDAN SD")
-    print("Register Number: 212224243001")
+    
 
     plt.figure(figsize=(8, 6))
 
@@ -267,8 +266,7 @@ def test_model(model, test_loader):
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
 
-    print("Name: ARAVINDAN SD")
-    print("Register Number: 212224243001")
+    
 
     plt.figure(figsize=(8, 6))
 
@@ -287,8 +285,7 @@ def test_model(model, test_loader):
     plt.show()
 
     # Classification Report
-    print("Name:        ")
-    print("Register Number:        ")
+   
 
     print("Classification Report:")
 
